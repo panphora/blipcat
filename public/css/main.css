@@ -217,7 +217,7 @@ button::-moz-focus-inner {
   color: #261850;
 }
 
-.post__task--complete .post__task-checkmark {
+.post__task:not([data-o-key-is-complete=""]) .post__task-checkmark {
   display: inline;
 }
 
@@ -226,6 +226,12 @@ button::-moz-focus-inner {
   display: inline-block;
   width: 20px;
   height: 20px;
+  cursor: pointer;
+}
+
+.post__task-checkbox-container input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
 }
 
 .post__task-checkbox-container:hover .post__task-checkbox {

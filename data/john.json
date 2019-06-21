@@ -1,13 +1,38 @@
 {
-  "todos": [
+  "progressUpdates": [
     {
-      "text": "Build a space ship!"
+      "text": "Your progress update",
+      "tasks": [
+        {
+          "taskText": "A task",
+          "isComplete": "true"
+        },
+        {
+          "taskText": "A new task!",
+          "isComplete": "true"
+        },
+        {
+          "taskText": "A new task!",
+          "isComplete": "true"
+        },
+        {
+          "taskText": "",
+          "isComplete": ""
+        },
+        {
+          "taskText": "A new task!",
+          "isComplete": ""
+        }
+      ]
     },
     {
-      "text": "Go to the moon"
-    },
-    {
-      "text": "Build a moon base"
+      "text": "Your progress update",
+      "tasks": [
+        {
+          "taskText": "",
+          "isComplete": ""
+        }
+      ]
     }
   ]
 }

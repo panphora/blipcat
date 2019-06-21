@@ -1,16 +1,21 @@
 {
-  "todos": [
+  "progressUpdates": [
     {
-      "text": "Practice reciting poetry"
-    },
-    {
-      "text": "Find outfit for the poetry recital"
-    },
-    {
-      "text": "Message Dan"
-    },
-    {
-      "text": "Go to the recital"
+      "text": "Meredith's progress update",
+      "tasks": [
+        {
+          "taskText": "A task",
+          "isComplete": "true"
+        },
+        {
+          "taskText": "A new task!",
+          "isComplete": "true"
+        },
+        {
+          "taskText": "A new task!",
+          "isComplete": "true"
+        }
+      ]
     }
   ]
 }

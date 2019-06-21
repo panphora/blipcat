@@ -38,10 +38,6 @@ export default function () {
     let remakeEditAreasElem = editablePopoverElem.querySelector(".remake-edit__edit-areas");
     remakeEditAreasElem.innerHTML = generateRemakeEditAreas({config: editableConfig});
 
-    // autosize textarea
-    let textareaElems = Array.from(remakeEditAreasElem.querySelectorAll("textarea"));
-    textareaElems.forEach(el => autosize(el));
-
     // copy the layout
     copyLayout({
       sourceElem: editableTriggerElem, 
@@ -55,6 +51,12 @@ export default function () {
     let switchObj = {name: switchName, elem: editablePopoverElem};
     let actionObj = {name: switchName, elem: editableTriggerElem, type: "on"};
     Switches.turnOn(switchObj, actionObj);
+
+    // autosize textarea
+    let textareaElems = Array.from(remakeEditAreasElem.querySelectorAll("textarea"));
+    setTimeout(function () {
+      textareaElems.forEach(el => autosize(el));
+    });
 
     // focus input
     let firstFormInput = editablePopoverElem.querySelector("textarea, input")

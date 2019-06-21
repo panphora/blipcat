@@ -14,40 +14,20 @@
   <div class="text-align--right mb--4">
     <button class="button button--large">
       <span class="button__background"></span>
-      <span class="button__text">+ progress update</span>
+      <span 
+        class="button__text"
+        data-i-new="progressUpdate .progress-updates"
+      >+ progress update</span>
     </button>
   </div>
-  <div>
-    <div class="post mb--6">
-      <div class="post__text mb--2point5">Good day overall, had fun playing video games. Disappointed I didn’t rest and recouperate more. Disappointed I didn’t go outside that much. Glad I had time to do a little work on fun projects.</div>
-      <div class="post__tasks mb--2">
-        <div class="post__task post__task--complete mb--1point5">
-          <div class="post__task-checkbox-container">
-            <div class="post__task-checkbox"></div>
-            <img class="post__task-checkmark" src="/images/checkmark.svg">
-          </div>
-          <div class="post__task-text">Enable notifications for Twitch using Chatty</div>
-        </div>
-        <div class="post__task post__task--complete mb--1point5">
-          <div class="post__task-checkbox-container">
-            <div class="post__task-checkbox"></div>
-            <img class="post__task-checkmark" src="/images/checkmark.svg">
-          </div>
-          <div class="post__task-text">Read an article: My Twitch Setup</div>
-        </div>
-        <div class="post__task mb--1point5">
-          <div class="post__task-checkbox-container">
-            <div class="post__task-checkbox"></div>
-            <img class="post__task-checkmark" src="/images/checkmark.svg">
-          </div>
-          <div class="post__task-text">Do research on `npm link`</div>
-        </div>
-      </div>
-      <button class="button button--add-task">
-        <span class="button__background"></span>
-        <span class="button__text">+ task</span>
-      </button>
-    </div>
+  <div 
+    class="progress-updates"
+    data-o-key="progressUpdates"
+    data-o-type="list"
+  >
+    {% for progressUpdate in data.progressUpdates %}
+      {% include "../../partials/progressUpdate/index.njk" %}
+    {% endfor %}
   </div>
 </div>
 

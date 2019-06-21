@@ -1,0 +1,28 @@
+<div 
+  class="post mb--6"
+  data-o-type="object"
+  data-o-key-text="{{ progressUpdate.text }}"
+>
+  <div 
+    class="post__text mb--2point5"
+    data-w-key-text="innerText"
+    data-i-editable-with-remove="text(text-multi-line)"
+  >{{ progressUpdate.text }}</div>
+  <div 
+    class="post__tasks mb--2"
+    data-o-key="tasks"
+    data-o-type="list"
+  >
+    {% for task in progressUpdate.tasks %}
+      {% include "../../partials/task/index.njk" %}
+    {% endfor %}
+  </div>
+  <button class="button button--add-task">
+    <span class="button__background"></span>
+    <span 
+      class="button__text"
+      data-i-new="task .post__tasks"
+    >+ task</span>
+  </button>
+</div>
+

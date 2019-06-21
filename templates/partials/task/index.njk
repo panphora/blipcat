@@ -1,0 +1,20 @@
+<div 
+  class="post__task mb--1point5"
+  data-o-type="object"
+  data-o-key-task-text="{{ task.taskText }}"
+  data-o-key-is-complete="{{ task.isComplete }}"
+>
+  <label 
+    class="post__task-checkbox-container"
+    data-i-click-to-save="closest"
+  >
+    <input data-i type="checkbox" name="isComplete" value="true">
+    <span class="post__task-checkbox"></span>
+    <img class="post__task-checkmark" src="/images/checkmark.svg">
+  </label>
+  <div 
+    class="post__task-text"
+    data-w-key-task-text="innerText"
+    data-i-editable-with-remove="text(text-single-line)"
+  >{{ task.taskText }}</div>
+</div>

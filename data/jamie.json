@@ -1,16 +1,21 @@
 {
-  "todos": [
+  "progressUpdates": [
     {
-      "text": "Find an outfit"
-    },
-    {
-      "text": "Pick up my moped"
-    },
-    {
-      "text": "Stop a bank robbery"
-    },
-    {
-      "text": "Help Jack cross the street at 5pm"
+      "text": "Your progress update",
+      "tasks": [
+        {
+          "taskText": "A task",
+          "isComplete": "true"
+        },
+        {
+          "taskText": "A new task!",
+          "isComplete": "true"
+        },
+        {
+          "taskText": "A new task!",
+          "isComplete": "true"
+        }
+      ]
     }
   ]
 }

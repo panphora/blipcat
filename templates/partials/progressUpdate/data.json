@@ -1,0 +1,10 @@
+{
+  "progressUpdate":{
+    "text": "Your progress update",
+    "tasks": [
+      {
+        "text": "A task"
+      }
+    ]
+  }
+}
