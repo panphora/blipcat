@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently --kill-others \"livereload . -w 1000 -e html,njk,sass,css,js,png,gif,jpg\" \"nodemon server.js -e html,njk,sass,css,js,png,gif,jpg -q\" \"parcel public/index.js --out-dir ./public/dist --no-hmr\"",
+    "dev": "concurrently --kill-others \"livereload . -w 2000 -e html,njk,sass,css,js,png,gif,jpg\" \"nodemon server.js -e html,njk,sass,css,js,png,gif,jpg -q\" \"parcel public/index.js --out-dir ./public/dist --no-hmr\"",
     "start": "node server.js"
   },
   "keywords": [],

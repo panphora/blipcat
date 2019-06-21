@@ -5,20 +5,50 @@
   data-o-save-deep="all"
   data-o-type="object"
 >
-  <h1>Todos</h1>
-  <div 
-    class="todos"
-    data-o-key="todos"
-    data-o-type="list"
-  >
-    {% for todo in data.todos %}
-      {% include "../../partials/todo/index.njk" %}
-    {% endfor %}
+  <div class="mb--6">
+    <a class="logo" href="">
+      <span class="logo__background"></span>
+      <span class="logo__text">Blipcat</span>
+    </a>
   </div>
-  <button
-    class="todo__add-button"
-    data-i-new="todo .todos"
-  >Add Todo</button>
+  <div class="text-align--right mb--4">
+    <button class="button button--large">
+      <span class="button__background"></span>
+      <span class="button__text">+ progress update</span>
+    </button>
+  </div>
+  <div>
+    <div class="post mb--6">
+      <div class="post__text mb--2point5">Good day overall, had fun playing video games. Disappointed I didn’t rest and recouperate more. Disappointed I didn’t go outside that much. Glad I had time to do a little work on fun projects.</div>
+      <div class="post__tasks mb--2">
+        <div class="post__task post__task--complete mb--1point5">
+          <div class="post__task-checkbox-container">
+            <div class="post__task-checkbox"></div>
+            <img class="post__task-checkmark" src="/images/checkmark.svg">
+          </div>
+          <div class="post__task-text">Enable notifications for Twitch using Chatty</div>
+        </div>
+        <div class="post__task post__task--complete mb--1point5">
+          <div class="post__task-checkbox-container">
+            <div class="post__task-checkbox"></div>
+            <img class="post__task-checkmark" src="/images/checkmark.svg">
+          </div>
+          <div class="post__task-text">Read an article: My Twitch Setup</div>
+        </div>
+        <div class="post__task mb--1point5">
+          <div class="post__task-checkbox-container">
+            <div class="post__task-checkbox"></div>
+            <img class="post__task-checkmark" src="/images/checkmark.svg">
+          </div>
+          <div class="post__task-text">Do research on `npm link`</div>
+        </div>
+      </div>
+      <button class="button button--add-task">
+        <span class="button__background"></span>
+        <span class="button__text">+ task</span>
+      </button>
+    </div>
+  </div>
 </div>
 
 <script src="/dist/index.js"></script>
