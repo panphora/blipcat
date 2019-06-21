@@ -16,7 +16,7 @@
           "isComplete": "true"
         },
         {
-          "taskText": "",
+          "taskText": "A new task!",
           "isComplete": ""
         },
         {
@@ -29,7 +29,44 @@
       "text": "Your progress update",
       "tasks": [
         {
-          "taskText": "",
+          "taskText": "A task",
+          "isComplete": ""
+        },
+        {
+          "taskText": "A new task!",
+          "isComplete": ""
+        },
+        {
+          "taskText": "A new task!",
+          "isComplete": ""
+        },
+        {
+          "taskText": "A new task!",
+          "isComplete": ""
+        },
+        {
+          "taskText": "A new task!",
+          "isComplete": ""
+        },
+        {
+          "taskText": "A new task!",
+          "isComplete": ""
+        }
+      ]
+    },
+    {
+      "text": "Your progress update",
+      "tasks": [
+        {
+          "taskText": "A task",
+          "isComplete": ""
+        },
+        {
+          "taskText": "A new task!",
+          "isComplete": ""
+        },
+        {
+          "taskText": "A new task!",
           "isComplete": ""
         }
       ]
