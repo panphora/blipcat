@@ -1,0 +1,39 @@
+{% include "../../partials/head/index.njk" %}
+
+<div 
+  id="app" 
+  data-o-save-deep="all"
+  data-o-type="object"
+>
+  <h1>Todos</h1>
+  <div 
+    class="todos"
+    data-o-key="todos"
+    data-o-type="list"
+  >
+    {% for todo in data.todos %}
+      {% include "../../partials/todo/index.njk" %}
+    {% endfor %}
+  </div>
+  <button
+    class="todo__add-button"
+    data-i-new="todo .todos"
+  >Add Todo</button>
+</div>
+
+<script src="/dist/index.js"></script>
+
+{% include "../../partials/footer/index.njk" %}
+
+
+
+
+
+
+
+
+
+
+
+
+
