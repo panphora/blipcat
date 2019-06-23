@@ -23,7 +23,7 @@
     "lodash.merge": "^4.6.1",
     "nunjucks": "^3.2.0",
     "pug": "^2.0.3",
-    "remakejs": "^0.3.2"
+    "remakejs": "^0.4.1"
   },
   "devDependencies": {
     "concurrently": "^4.1.0"
