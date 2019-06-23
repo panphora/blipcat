@@ -1,7 +1,7 @@
 <div 
   class="post__task mb--1point5"
   data-o-type="object"
-  data-o-key-task-text="{{ task.taskText }}"
+  data-o-key-text="{{ task.text }}"
   data-o-key-is-complete="{{ task.isComplete }}"
 >
   <label 
@@ -14,7 +14,7 @@
   </label>
   <div 
     class="post__task-text"
-    data-w-key-task-text="innerText"
+    data-w-key-text="innerText"
     data-i-editable-with-remove="text(text-single-line)"
-  >{{ task.taskText }}</div>
+  >{{ task.text }}</div>
 </div>

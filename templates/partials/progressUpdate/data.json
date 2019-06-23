@@ -3,7 +3,7 @@
     "text": "Your progress update",
     "tasks": [
       {
-        "taskText": "A task"
+        "text": "A task"
       }
     ]
   }

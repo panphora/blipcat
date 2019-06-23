@@ -1,6 +1,6 @@
 {
   "task":{
-    "taskText": "A new task!",
+    "text": "A new task!",
     "isComplete": ""
   }
 }

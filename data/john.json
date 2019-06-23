@@ -1,26 +1,26 @@
 {
   "progressUpdates": [
     {
-      "text": "Your progress update",
+      "text": "Giraffes are fucking awesome",
       "tasks": [
         {
-          "taskText": "A task",
+          "text": "Things and stuff!",
           "isComplete": "true"
         },
         {
-          "taskText": "A new task!",
+          "text": "DOGS!",
           "isComplete": "true"
         },
         {
-          "taskText": "A new task!",
+          "text": "A new task!",
           "isComplete": "true"
         },
         {
-          "taskText": "A new task!",
+          "text": "A new task!",
           "isComplete": ""
         },
         {
-          "taskText": "A new task!",
+          "text": "A new task!",
           "isComplete": ""
         }
       ]
@@ -29,28 +29,32 @@
       "text": "Your progress update",
       "tasks": [
         {
-          "taskText": "A task",
+          "text": "A task",
           "isComplete": ""
         },
         {
-          "taskText": "A new task!",
+          "text": "A new task!",
           "isComplete": ""
         },
         {
-          "taskText": "A new task!",
+          "text": "A new task!",
           "isComplete": ""
         },
         {
-          "taskText": "A new task!",
+          "text": "A new task!",
           "isComplete": ""
         },
         {
-          "taskText": "A new task!",
+          "text": "A new task!",
           "isComplete": ""
         },
         {
-          "taskText": "A new task!",
-          "isComplete": ""
+          "text": "A new task!",
+          "isComplete": "true"
+        },
+        {
+          "text": "A new task!",
+          "isComplete": "true"
         }
       ]
     },
@@ -58,15 +62,15 @@
       "text": "Your progress update",
       "tasks": [
         {
-          "taskText": "A task",
-          "isComplete": ""
+          "text": "A task",
+          "isComplete": "true"
         },
         {
-          "taskText": "A new task!",
-          "isComplete": ""
+          "text": "A new task!",
+          "isComplete": "true"
         },
         {
-          "taskText": "A new task!",
+          "text": "A new task!",
           "isComplete": ""
         }
       ]
