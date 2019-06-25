@@ -1,6 +1,7 @@
 {
   "name": "blipcat",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently --kill-others \"livereload . -w 2000 -e html,njk,sass,css,js,png,gif,jpg\" \"nodemon server.js -e html,njk,sass,css,js,png,gif,jpg -q\" \"parcel public/index.js --out-dir ./public/dist --no-hmr\"",
@@ -10,27 +11,21 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "autosize": "^4.0.2",
     "cookie-parser": "^1.4.4",
     "data-store": "^3.1.0",
     "deep-extend": "^0.6.0",
-    "delegated-events": "^1.0.10",
     "directory-tree": "^2.2.3",
     "esm": "^3.2.25",
     "express": "^4.17.0",
-    "jsdom": "^15.1.0",
     "jsonfile": "^5.0.0",
-    "lodash.merge": "^4.6.1",
+    "lodash-es": "^4.17.11",
     "nunjucks": "^3.2.0",
-    "pug": "^2.0.3",
-    "remakejs": "^0.4.1"
+    "remakejs": "^0.4.2"
   },
   "devDependencies": {
-    "concurrently": "^4.1.0"
-  },
-  "directories": {
-    "doc": "docs",
-    "lib": "lib"
-  },
-  "description": ""
+    "concurrently": "^4.1.0",
+    "livereload": "^0.8.0",
+    "nodemon": "^1.19.1",
+    "parcel": "^1.12.3"
+  }
 }
