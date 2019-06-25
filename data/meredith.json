@@ -1,18 +1,26 @@
 {
   "progressUpdates": [
     {
-      "text": "Your progress update",
+      "text": "Had a good day. Went for a long walk in the morning to think over my day. Relaxed for 30 minutes before starting work. Finished 5 tasks at work. Watched a video game tournament. Over all, I really enjoyed today! :D",
       "tasks": [
         {
-          "taskText": "A task",
+          "text": "Finish all work tasks",
           "isComplete": "true"
         },
         {
-          "taskText": "A new task!",
+          "text": "Spend time planning my day",
           "isComplete": "true"
         },
         {
-          "taskText": "A new task!",
+          "text": "Buy raspberries and blueberries",
+          "isComplete": "true"
+        },
+        {
+          "text": "Implemented user accounts in web framework",
+          "isComplete": ""
+        },
+        {
+          "text": "Listened to one of my favorite audiobooks",
           "isComplete": "true"
         }
       ]

@@ -1,77 +1,27 @@
 {
   "progressUpdates": [
     {
-      "text": "Giraffes are fucking awesome",
+      "text": "Had a good day. Went for a long walk in the morning to think over my day. Relaxed for 30 minutes before starting work. Finished 5 tasks at work. Watched a video game tournament. Over all, I really enjoyed today! :D",
       "tasks": [
         {
-          "text": "Things and stuff!",
+          "text": "Finish all work tasks",
           "isComplete": "true"
         },
         {
-          "text": "DOGS!",
+          "text": "Spend time planning my day",
           "isComplete": "true"
         },
         {
-          "text": "A new task!",
+          "text": "Buy raspberries and blueberries",
           "isComplete": "true"
         },
         {
-          "text": "A new task!",
+          "text": "Implemented user accounts in web framework",
           "isComplete": ""
         },
         {
-          "text": "A new task!",
-          "isComplete": ""
-        }
-      ]
-    },
-    {
-      "text": "Your progress update",
-      "tasks": [
-        {
-          "text": "A task",
-          "isComplete": ""
-        },
-        {
-          "text": "A new task!",
-          "isComplete": ""
-        },
-        {
-          "text": "A new task!",
-          "isComplete": ""
-        },
-        {
-          "text": "A new task!",
-          "isComplete": ""
-        },
-        {
-          "text": "A new task!",
-          "isComplete": ""
-        },
-        {
-          "text": "A new task!",
+          "text": "Listened to one of my favorite audiobooks",
           "isComplete": "true"
-        },
-        {
-          "text": "A new task!",
-          "isComplete": "true"
-        }
-      ]
-    },
-    {
-      "text": "Your progress update",
-      "tasks": [
-        {
-          "text": "A task",
-          "isComplete": "true"
-        },
-        {
-          "text": "A new task!",
-          "isComplete": "true"
-        },
-        {
-          "text": "A new task!",
-          "isComplete": ""
         }
       ]
     }
