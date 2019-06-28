@@ -1,7 +1,6 @@
 {% set taskIndex = loop.index0 %}
 <div 
   class="post__task mb--1point5"
-  data-o-save="defaultSave path:todos.{{ taskIndex }}"
   data-o-type="object"
   data-o-key-text="{{ task.text }}"
   data-o-key-is-complete="{{ task.isComplete }}"
