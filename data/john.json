@@ -1,27 +1,27 @@
 {
   "progressUpdates": [
     {
-      "text": "Had a good day. Went for a long walk in the morning to think over my day. Relaxed for 30 minutes before starting work. Finished 5 tasks at work. Watched a video game tournament. Over all, I really enjoyed today! :D",
+      "text": "Went for a long walk. Meditated. Ate a banana. Streamed for 3.5 hours. Built some fun projects! Overall, a really productive & fun day!",
       "tasks": [
         {
-          "text": "Finish all work tasks",
+          "text": "Create a video tutorial",
           "isComplete": "true"
         },
         {
-          "text": "Spend time planning my day",
+          "text": "Stream for 3 hours",
           "isComplete": "true"
         },
         {
-          "text": "Buy raspberries and blueberries",
+          "text": "Go grocery shopping",
           "isComplete": "true"
         },
         {
-          "text": "Implemented user accounts in web framework",
+          "text": "Watch some tv",
           "isComplete": ""
         },
         {
           "text": "Listened to one of my favorite audiobooks",
-          "isComplete": "true"
+          "isComplete": ""
         }
       ]
     }

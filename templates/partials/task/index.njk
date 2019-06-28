@@ -9,7 +9,7 @@
     class="post__task-checkbox-container"
     data-i-click-to-save="closest"
   >
-    <input data-i type="checkbox" name="isComplete" value="true">
+    <input data-i type="checkbox" name="isComplete" value="true" {% if task.isComplete %} checked {% endif %}>
     <span class="post__task-checkbox"></span>
     <img class="post__task-checkmark" src="/images/checkmark.svg">
   </label>
